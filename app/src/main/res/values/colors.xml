@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#444153</color>
+    <color name="colorPrimaryDark">#383547</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="guillotine_background">#444153</color>
+    <color name="guillotine_background_dark">#383547</color>
+    <color name="selected_item_color">#30d1d5</color>
+
+    <!-- spinner colors -->
+    <color name="color_bg">#30d1d5</color>
+
+
+    <!--alertDialog colors-->
+    <color name="alert_text">#FFFF00</color>
+    <color name="alert_background">#444153</color>
+    <color name="alert_buttons">#696969</color>
+    <color name= "hint_color">#fffff0</color>
+</resources>

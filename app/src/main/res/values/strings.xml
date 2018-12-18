@@ -1,0 +1,44 @@
+<resources>
+
+    <!--buttons -->
+    <string name="set">SET</string>
+    <string name="reset">RESET</string>
+
+
+    <!--create playlist dialog -->
+
+    <string name = "playlist_hint">Playlist name </string>
+
+
+
+    <string name="app_name">YPlayer</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="show_stats">Show Stats</string>
+    <string name="add_video">Add video</string>
+    <string name="search_playlist">SEARCH PLAYLIST</string>
+
+    <!-- activity titles -->
+    <string name="title_activity_search_playlist_view">SearchPlaylistView</string>
+    <string name  = "title_activity_search_video">Search Video</string>
+
+
+    <!--toolbars-->
+    <string name  = "action_search_video">Search Video</string>
+
+
+    <!-- guillotine playlist menu-->
+    <string name="playlist_search_title">SEARCH PARAMETERS</string>
+    <string name="playlist_sort">Sort By</string>
+    <string name="playlist_safe">Safe Search Mode</string>
+    <string name="playlist_max_results">Search Results</string>
+
+
+    <!-- added video menu options -->
+    <string name= "added_video_details">Video Details</string>
+    <string name = "added_video_delete">Delete Video </string>
+
+
+
+
+</resources>

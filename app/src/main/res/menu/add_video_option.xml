@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.wambugu.YPlayer.activities.Main">
+    <item
+        android:id="@+id/add_video"
+        android:title="@string/add_video" />
+
+    <item
+        android:id = "@+id/show_stats"
+        android:title="@string/show_stats" />
+</menu>

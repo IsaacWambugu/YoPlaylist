@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.wambugu.YPlayer.activities.Main">
+    <item
+        android:id="@+id/added_video_details"
+        android:title="@string/added_video_details" />
+
+    <item
+        android:id = "@+id/added_video_delete"
+        android:title="@string/added_video_delete" />
+</menu>

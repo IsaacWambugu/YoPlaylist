@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id ="@+id/playlist_view"
+    >
+
+    <EditText
+        android:id="@+id/playlist_video_search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/cardview_light_background"
+        android:imeOptions="actionDone"
+        android:maxLines="1"
+        android:hint="Search video"
+        android:inputType="textVisiblePassword" />
+
+    <android.support.v7.widget.RecyclerView
+
+        android:id="@+id/playlist_view_list"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="38dp"
+        android:scrollbars="vertical" />
+
+</RelativeLayout>

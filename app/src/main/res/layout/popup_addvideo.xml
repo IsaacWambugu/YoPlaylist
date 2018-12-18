@@ -1,0 +1,75 @@
+<?xml version= "1.0" encoding= "utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:background="#000000">
+
+
+    <EditText
+        android:id="@+id/video_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Paste Youtube URL here..."
+        android:inputType="textPersonName" />
+
+    <ru.katso.livebutton.LiveButton xmlns:livebutton="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/add_video_button"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/video_link"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+
+
+        android:text="Add"
+        android:textColor="#ffffff"
+
+        android:textSize="18sp"
+
+        livebutton:backgroundColor="@color/colorPrimary"
+        livebutton:corners="4dp"
+        livebutton:normalHeight="6dp"
+        livebutton:pressedHeight="2dp"
+        livebutton:shadowColor="#b16262" />
+
+    <ru.katso.livebutton.LiveButton xmlns:livebutton="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cancel_video_button"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+
+
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/video_link"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Cancel"
+        android:textColor="#ffffff"
+
+        android:textSize="18sp"
+
+        livebutton:backgroundColor="@android:color/holo_red_dark"
+        livebutton:corners="4dp"
+        livebutton:normalHeight="6dp"
+        livebutton:pressedHeight="2dp"
+        livebutton:shadowColor="#b16262" />
+</RelativeLayout>
